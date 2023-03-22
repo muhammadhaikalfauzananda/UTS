@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "UTS-PAM-23",
-    "slug": "UTS-PAM-23",
+    "name": "SomethnicApp",
+    "slug": "uts-120140168",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -10,6 +10,9 @@
       "image": "./assets/splash.png",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
     },
     "assetBundlePatterns": [
       "**/*"
@@ -20,11 +23,18 @@
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
-        "backgroundColor": "#ffffff"
-      }
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.SomethnicApp"
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "extra": {
+      "eas": {
+        "projectId": "90c02223-915e-43b5-934f-de125bc76e5a"
+      }
+    },
+    "owner": "haikal123"
   }
 }
